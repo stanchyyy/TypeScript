@@ -1,13 +1,16 @@
 {
     "compilerOptions": {
-      "module": "system",
-      "noImplicitAny": true,
-      "removeComments": true,
-      "preserveConstEnums": true,
-      "outFile": "../../built/local/tsc.js",
-      "sourceMap": true
+      "target": "es6",
+      "module": "commonjs",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "lib": [      
+      "es6",
+      "dom"
+    ]
     },
-    "include": ["./*"],
-    "exclude": ["node_modules", "**/*.spec.ts"]
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Recommended"
   }
-  

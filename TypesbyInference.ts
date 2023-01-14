@@ -65,11 +65,3 @@ function logPoint(p:Point){
 const point = {x:12,y:13};
 logPoint(point);
 
-async function require(){
-    return 1;
-}
-
-let a = require();
-a.then(result=>{
-    console.log(result);
-})
