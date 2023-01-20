@@ -43,5 +43,12 @@ const d1 = makeDate(12345678);
 const d2 = makeDate(5, 5, 5);
 //const d3 = makeDate(1, 3);
 
-
+//Declaring this in a Function
+const secretarian = {
+    id:1234,
+    admin: false,
+    becomeAdmin : function(){
+        this.admin = true;
+    },
+}
 
